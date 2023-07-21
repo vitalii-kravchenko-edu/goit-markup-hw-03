@@ -133,8 +133,8 @@ img {
 }
 
 .header-contact-list {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
+  align-items: center;
   gap: 40px;
 }
 
@@ -154,33 +154,32 @@ img {
   padding: 188px 0;
 }
 
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 48px;
-}
-
 .hero-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
+  max-width: 496px;
+  margin: 0 auto 48px auto;
   color: var(--primary-white-color);
 }
 
 .hero-btn {
+  display: block;
   font-family: var(--primary-font);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  margin: auto;
+  margin: 0 auto;
   color: var(--primary-white-color);
-  background: var(--brand-color);
+  background-color: var(--brand-color);
   cursor: pointer;
 }
 
